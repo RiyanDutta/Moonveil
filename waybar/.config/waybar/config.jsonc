@@ -39,6 +39,7 @@
     "pulseaudio",
 		"battery",
     "clock",
+    "custom/logout",
     "custom/swaync"
 	],
 
@@ -240,13 +241,6 @@
 		"on-click": "kitty --class 'dotfiles-floating' sh -c 'impala; exec bash'"
 	},
 
-	/*------------Tray--------------------*/
-	"tray": {
-		"icon-size": 20,
-		"spacing": 8,
-    "on-click": ""
-	},
-
 	/*------------Clock------------------*/
 	"clock": {
 		"format": "󰥔 {:%a %d  %I:%M}",
@@ -261,6 +255,18 @@
 			"on-click-right": "shift_down",
 			"on-click": "shift_up"
 		}
-	}
+	},
 
+	/*--------------Wlogout-----------------*/
+	"custom/logout": {
+		"format": "⏻",
+		"on-click": "wlogout"
+	},
+
+	/*------------Tray--------------------*/
+	"tray": {
+		"icon-size": 20,
+		"spacing": 8,
+    "on-click": ""
+	},
  }
