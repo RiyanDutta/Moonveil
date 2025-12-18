@@ -260,7 +260,7 @@
 	/*--------------Wlogout-----------------*/
 	"custom/logout": {
 		"format": "⏻",
-		"on-click": "wlogout"
+		"on-click": "wlogout --css ~/.config/wlogout/matugen-wlogout.css"
 	},
 
 	/*------------Tray--------------------*/

@@ -5,11 +5,13 @@
 ## 🛠️ Installation
 <span style="color:red">Note: The dotfiles are meant to run on my specific system, you will have to manually edit it for yours.</span>
 
-1. Install the required packages and fonts.
+1. Run these commands.
 
 - `sudo pacman -S firefox nautilus stow kitty waybar wofi swaync wlogout impala pavucontrol ttf-cascadia-code-nerd ttf-iosevka-nerd otf-geist-mono-nerd` 
 
 - `yay -S matugen-bin`
+
+- `sudo install -m 0440 /dev/stdin /etc/sudoers.d/bootwindows <<EOF $(whoami) ALL=(root) NOPASSWD: /usr/bin/efibootmgr, /usr/bin/reboot EOF`
 
 2. Use `stow` to symlink config folders of programs to apply dotfiles.
 
