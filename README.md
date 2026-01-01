@@ -7,7 +7,7 @@
 
 1. Run these commands.
 
-- `sudo pacman -S uv firefox nautilus stow kitty waybar rofi rofimoji wtype imagemagick swaync wlogout impala pavucontrol quickshell ttf-cascadia-code-nerd ttf-iosevka-nerd otf-geist-mono-nerd` 
+- `sudo pacman -S uv firefox nautilus stow kitty waybar rofi rofimoji wtype swaync wlogout impala pavucontrol quickshell ttf-cascadia-code-nerd ttf-iosevka-nerd otf-geist-mono-nerd` 
 
 - `yay -S matugen-bin`
 
